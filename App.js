@@ -1,20 +1,24 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React,{useState} from 'react';
+import { StyleSheet, Text, View, Button } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 
 export default function App() {
+  const [change,setChange] = useState("Navindu K");
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+
+      <LinearGradient colors={['#2C148B', '#684BB7', '#AA76D8']} style={styles.container}>
+        <Text>{change}</Text>
+        <StatusBar style="auto" />
+      </LinearGradient>
+      
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
