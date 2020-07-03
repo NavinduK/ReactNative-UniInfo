@@ -1,9 +1,9 @@
 {
-  "name": "MyBio",
-  "displayName": "MyBio",
+  "name": "UniInfo",
+  "displayName": "UniInfo",
   "expo": {
-    "name": "MyBio",
-    "slug": "MyBio",
+    "name": "UniInfo",
+    "slug": "UniInfo",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
